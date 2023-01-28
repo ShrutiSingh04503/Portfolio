@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  position: absolute;
+  /* background-color: rgb(255, 248, 238); */
+  /* width: 300px; */
+  font-family: "Playfair Display", serif;
+  height: 100vh;
+  transition: transform 0.3s ease-in;
+  
+}
+.sidebar nav {
+  padding: 45px;
+}
+
+.sidebar nav li a{
+   text-decoration: none;
+   color: rgb(5, 5, 5);
+}
+
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 30px 0;
+}
+
+
+.main {
+  /* background-color: rgb(236, 207, 207); */
+  background-image: url("back4.jpeg");
+  background-repeat: no-repeat;
+ 
+  width: 100vw;
+  height: 100vh;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("portfolio-websites.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.infoContainer {
+  /* background-color: rgb(8, 8, 8); */
+  height: 76vh;
+  width: 81vw;
+  margin: 144px auto;
+ margin-top: 90px;
+  display: flex;
+    margin-left: 240px;
+  justify-content: space-around;
+}
+
+
+.devInfo {
+  margin-left: 2em;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(251, 253, 255);
+  font-family: "PT Serif", serif;
+}
+
+
+.hello {
+  font-size: 2.3em;
+  
+}
+
+.name {
+  font-size: 4em;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 6px plum;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+.about{
+  font-size: 2.5em;
+  color: white;
+  /* margin-top: 5px; */
+}
+
+.moreabout {
+  font-size: 1.6em;
+  margin-top: 21px;
+  
+}
+
+
+.buttons {
+  margin-top: 2.8em;
+  font-size: 8px;
+}
+.btn_btn-sm{
+  padding: 5px 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin: 3px 3px;
+  color: rgb(255, 248, 248);
+  background-color: rgb(12, 36, 62);
+  cursor: pointer;
+  font-size: 1em;
+}
+.btn {
+  padding: 9px 14px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin: 3px 3px;
+  color: rgb(255, 248, 248);
+  background-color: rgb(13, 78, 152);
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.btn_btn-sm:hover{
+    color: white;
+    background-color: rgb(104, 128, 155);
+}
+.btn:hover{
+   color: white;
+   background-color: rgb(104, 128, 155);
+}
+
+
+  .contactform{
+    margin:  88px;
+    padding: 0 34px;
+    font-family: "Times New Roman", Times, serif;
+    background: rgba(27, 27, 26, 0.73);
+    padding: 15px;
+    color: #fff;   
+  
+
+  }
+
+  
+.contactform h1{
+  font-family: "Playfair Display", serif;
+  /* padding: 12px 0; */
+  }
+
+  .contactform form{
+  margin: 0 40px;
+  }
+
+
+  .contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .contactform form div input{
+    
+    border-radius: 5px;
+    margin: 4px 0 0 0;
+    padding: 1px;
+  }
+
+  #emailHelp{
+    font-size: 12px;
+    color: rgb(95, 110, 110);
+    margin: -9px 5px;
+
+  }
+  #form-check{
+      flex-direction: row;
+  }
+  #form-check input {
+  width: 24px;
+  margin : 3px 0;
+    }
+   
+  
+  .blogItem {
+    background: rgba(199, 199, 193, 0.73);
+    color: rgb(6, 6, 6);
+    margin: 15px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  a{
+    color: rgb(251, 250, 250);
+  } 
+
+  .blogContainer {
+    background: rgba(200, 208, 211, 0.73);
+     color: rgb(2, 2, 2);
+     padding: 2px;
+    margin: 60px;
+    margin-right: 200px;
+    margin-left: 230px;
+  }
+
+  .intro{
+     background: rgba(218, 215, 215, 0.73);
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 110px;
+    margin-left: 180px;
+  }
+   h1{
+    font-size: 45px;
+   /* margin-top: 15px;
+   margin-left: 20px; */
+   text-align: center;
+  }
+   h2{
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 17px;
+   margin-left: 45px;
+   margin: 20px;
+  
+  }
+   p{
+    font-family: "Playfair Display", serif;
+    margin: 10px 10px;
+  }
+  .intro h2{
+    font-family: "Times New Roman", Times, serif;
+    margin: 15px;
+    margin-top: 15px;
+  }
+  .intro p{
+    font-family: "Playfair Display", serif;
+    margin: 20px;
+  }
+  .skillcontainer{
+    padding: 10px;
+
+  }
+  .skill{
+    width: 250px;
+    height: 8px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin-left: 10px;
+  }
+
+  .skillItem{
+   display: flex;
+   align-items: center;
+   font-weight: 900;
+   margin-top: 5px;
+   margin-left: 28px;
+  }
+
+  .hundred{
+    width:  265px;
+  } 
+   .fifty{
+    width: 125px;
+  }
+  .t1{
+    width: 130px;
+    background-color:rgb(24, 22, 22);
+    margin-left: 72px;
+  }
+  .t2{
+    width: 160px;
+    background-color:rgb(24, 22, 22);
+    margin-left: 38px;
+  }
+  .t3{
+    width: 230px;
+    background-color:rgb(24, 22, 22);
+    margin-left: 100px;
+  }
+  .t4{
+    width: 230px;
+    background-color:rgb(24, 22, 22);
+    margin-left: 60px;
+  }
+  .t5{
+    width: 180px;
+    background-color: rgb(134, 3, 22);
+    margin-left: 90px;
+  }
+  .t6{
+    width: 110px;
+    background-color:rgb(24, 22, 22);
+    margin-left: 10px;
+  }
+  .t7{
+    width: 60px;
+    background-color:rgb(24, 22, 22);
+    margin-left: 28px;
+  }
+  .t8{
+    width: 120px;
+    background-color:rgb(24, 22, 22);
+    margin-left: 85px;
+  }
+  .sidebar{
+    background-color: white;
+  
+  }
+  .sidebarGo
+  {
+     transform: translate(-443px, 0px );
+     position: absolute;
+     background-color: antiquewhite;
+  }
+
+  .hamburger{
+    color: rgb(68, 174, 174);
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+  }
+
+.font{
+   margin: 140px -78px;
+}
+  .fa {
+    margin-left: 40%;
+    padding-top: 250px;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 10%;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 43%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-github {
+    background: #000000;
+  color: white;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  }
+  .ham{
+    margin-left: 10px;
+  margin-top: 8px;
+  }
+  .cross{
+    margin-left: 165px;
+    margin-top: 8px;
+  }
+  
+  @media (max-width: 1294px ) {
+     .buttons{
+      font-size: 6px;
+     }
+    .devInfo{
+      font-size:10px;
+    }
+
+    .devPic{
+      display: none;
+    }
+
+    .intro, .blogContainer .contactform{
+      margin: 50px 8px;
+    }
+}
+   /* /* .sidebar
+   {
+      transform: translate(-443px, 0px );
+      position: absolute;
+   } 
+  } */
