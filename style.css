@@ -38,7 +38,7 @@
   background-repeat: no-repeat;
  
   width: 100vw;
-  height: 100vh;
+  height: 130vh;
   font-weight: bold;
 }
 
@@ -130,18 +130,18 @@
   font-weight: bold;
   margin: 3px 3px;
   color: rgb(255, 248, 248);
-  background-color: rgb(13, 78, 152);
+  background-color:rgb(9 52 101);
   cursor: pointer;
   font-size: 2em;
 }
 
 .btn_btn-sm:hover{
     color: white;
-    background-color: rgb(104, 128, 155);
+    background-color: rgb(78, 100, 125);
 }
 .btn:hover{
    color: white;
-   background-color: rgb(104, 128, 155);
+   background-color: rgb(78, 100, 125);
 }
 
 
